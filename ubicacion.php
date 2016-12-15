@@ -23,7 +23,7 @@
        <td id='lista1'><td><a href='index.php'>Inicio | </a></td>
        <td id='lista2'>Productos | </td>
        <td id='lista3'><td><a href='ubicacion.php'>Ubicacion | </a></td>
-       <td id='lista4'>Contacto | </td>
+       <td id='lista4'> <td> <a href= 'contacto.php'>Contacto | </a> </td>
        <td id='lista5'>Administrador | </td> 
    </tr>   
    </table>
