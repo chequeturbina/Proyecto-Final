@@ -31,9 +31,10 @@
    </table>
    </center>
    <center>
-   <form method="POST" action="validaAdmin.php">
-   Password: <input type="password" name="password" size="10"><br>
-   <input type="submit" value="Enviar" name="privado">
+   <form name="formulario" method="post" action="validaAdmin.php">
+ Campo de contraseña <input name="pass" type="password">
+ <input name="login" type="submit" value="Log In!!">
+ </form>
   </center>
 </body>
 </html>
