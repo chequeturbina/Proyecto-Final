@@ -1,7 +1,7 @@
 <?php
 
 // Definimos el usuario y la contraseña que deseamos
-$pass = "sena";
+$pass = "pass";
 
 // Comprobamos que la contraseña sea valida
  if ($_POST['pass']==$pass )
@@ -16,8 +16,5 @@ $pass = "sena";
  //Si la contraseña ingresada no es valida se vera esto
  echo '<script language="javascript">alert("Error");</script>';
  echo "<a href=administrador.php? >Regresar</a>"; 
-
-
-
  }
 ?>

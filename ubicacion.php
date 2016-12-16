@@ -9,7 +9,6 @@
 	 	background-color:#ADEAEA;
 	 	border: 10px pink solid;
 	 	font-size: 30px;
-
 	 }
 
 	 </style>

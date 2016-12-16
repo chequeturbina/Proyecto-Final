@@ -11,10 +11,6 @@
     font-size: 30px;
 
    }
-    #menuCont {
-    background-color: #ffffff;
-    border: 2px red solid;
-   }
 
    </style>
 </head>
