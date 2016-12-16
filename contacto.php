@@ -65,10 +65,18 @@
     <table>
     <tr>
       <td>
-        <a target = "_blank" href='https://www.facebook.com/chequeturbina'><img id='im1' src='imagenes/facebook.png' width="40" height="40">
-        </a> 
-        <a target = "_blank" href='https://www.facebook.com/Maurichini'><img id='im1' src='imagenes/facebook.png' width="40" height="40">
-        </a> 
+                        <!-- Meza Martinez Emmanuel -->
+        <a target = "_blank" href='https://www.facebook.com/chequeturbina'><img id='im1' src='imagenes/facebook.png' width="40" height="40"></a>
+
+        <a target = "_blank" href='https://twitter.com/cheque_emmanuel'>
+        <img id='im3' src='imagenes/twitter.png' width="40" height="40"></a>
+        
+                        <!-- Garcia Ramos Mauricio E. -->
+        <a target = "_blank" href='https://www.facebook.com/Maurichini'><img id='im1' src='imagenes/facebook.png' width="40" height="40"></a>
+
+        <a target = "_blank" href='https://twitter.com/maurichini'>
+        <img id='im3' src='imagenes/twitter.png' width="40" height="40"></a>
+                        <!-- ESPACIO PARA REDES SOCIALES -->
       </td>
      </tr>
   </table>
