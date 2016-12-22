@@ -5,23 +5,24 @@
   <meta charset='utf-8' />
   <style type="text/css">
   
-   #menu {
-    background-color:#ADEAEA;
-    border: 10px pink solid;
+   #lista {
     font-size: 30px;
 
    </style>
 </head>
 
 <body background="imagenes/fondo.jpg">
-   <center>
-   <table id='menu'>
-   <tr>
-       <td id='lista1'><td><a href='index.php'>Inicio</a></td>
-   </tr>   
-   </table>
+  <center>
+
+	<ul id='lista'>
+		
+		<li>Bienvenido</li>
+		<li><a href='agregar.php'>Agregar producto</a></li>
+    <li><a href='verTodo.php'>Ver Todo</a></li>
+		<li><a href='eliminarProducto.php'>Borrar Producto</a></li>
+		<li><a href='index.php'>Salir </a></li>
+
+	</ul>
    </center>
-   <center>
-   
 </body>
 </html>
