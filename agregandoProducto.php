@@ -2,16 +2,16 @@
 
 	include('conexion.php');
 
-	$rutaEnServidor='imagenes';
-	$rutaTemporal=$_FILES['imagen']['tmp_name'];
 	$nombreImagen=$_FILES['imagen']['name'];
-	$rutaDestino=$rutaEnServidor.'/'.$nombreImagen;
-	move_uploaded_file($rutaTemporal, $rutaDestino);
-
+	$ruta = 'imagenes'.'/'.$nombreImagen;
 	$nombre=$_POST['cb'];
 	$t=$_POST['tipo'];
+	
+	move_uploaded_file($_FILES['imagen']['tmp_name'], $ruta);
+	
 
-	$consulta="INSERT INTO dulce(nombre, imagen, id_tipo) VALUES ('$codigo', '$nombreImagen', '$t')";
+	$consulta="INSERT INTO dulce(nombre, imagen, id_tipo) VALUES ('$nombre', '$nombreImagen', '$t')";
+	
 	if($conexion->query($consulta)==true) {
 		echo "<a href=menuadmin.php? >Producto agregado, Regresar</a>";
 	} else {

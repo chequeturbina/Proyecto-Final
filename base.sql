@@ -38,6 +38,7 @@ CREATE TABLE `dulce` (
 
 LOCK TABLES `dulce` WRITE;
 /*!40000 ALTER TABLE `dulce` DISABLE KEYS */;
+INSERT INTO `dulce` VALUES ('bubaloo','buba.jpg',5),('carlos v','carlosv.jpg',2),('halls','halls.jpg',3),('malvavisco','malva.png',6),('paleta payaso','payaso.jpg',4),('panditas','pandita.png',1);
 /*!40000 ALTER TABLE `dulce` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -74,4 +75,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-12-20 20:12:34
+-- Dump completed on 2016-12-30  1:25:31

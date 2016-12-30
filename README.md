@@ -23,11 +23,15 @@ Esta pagina igual contiene dos links, facebook y twitter de nostros dos.
 3.Administrador (Administrador.php, Validaadministrador.php, menuadmin.php)
 
 Esta parte es solo para trabajadores y pedira la contraseña 'pass', para mandarnos al menu del usuario y las funciones que podra realizar.
+
+Como ejemplo la base ya contiene 6 productos de cada tipo.
   
     3.1 Agregar (agregar.php, agregando.php, conexion.php)
 
          parte de la pagina para agregar productos por nombre, imagen del producto, y las opciones de que tipo es el dulce, si agrega correctamente o no nos mandara un mensaje.
          Entre los productos que se pueden agregar son gomitas, chocolates, caramelos, paletas, chicles y bombones.
+
+    NOTA: No pude guardar la imagen en la carpeta correspondiente, cuando seleccionas la imagen no la guarda en una carpeta de destino no supe como corregir ese problema o si era de la propia base.
   
     3.2 Ver Todo (verTodo.php)
 

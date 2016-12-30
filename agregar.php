@@ -13,7 +13,7 @@
 		</tr>
 		<tr>
 			<td>Fotografía</td>
-			<td><input type='file' name='imagen' /></td>
+			<td><input name='imagen' type='file' /></td>
 		</tr>
 		<tr>
 		<td>Tipo</td>
