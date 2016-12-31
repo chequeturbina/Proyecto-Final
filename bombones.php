@@ -1,3 +1,4 @@
+
 <html>
 <head>
 	<title>Candy</title>
@@ -14,7 +15,7 @@
 	echo "<td>Nombre</td>";
 	echo "</tr>";
 
-	$consulta="SELECT * FROM dulce JOIN tipo ON dulce.id_tipo=tipo.id";
+	$consulta="SELECT * FROM dulce WHERE id_tipo=6";
 	$resultado=$conexion->query($consulta);	
 	while($row=$resultado->fetch_assoc()) {
 		echo "<tr>";
@@ -26,6 +27,7 @@
 	}
 
 	echo "</table>";
+	echo"<a href=productos.php? >Regresar</a>";
 
 ?>
 

@@ -20,7 +20,11 @@ contiene la ubicacion de la tienda, que es la pagina de google maps mostrando un
 es la parta en donde el usuario puede hacer preguntas de cualquier tipo, se tiene que ingresar su nombre, correo, y la pregunta.... el boton enviar; enviara al correo de nosotros.
 Esta pagina igual contiene dos links, facebook y twitter de nostros dos.
 
-3.Administrador (Administrador.php, Validaadministrador.php, menuadmin.php)
+3.Productos (productos.php, bombones.php, chicles.php, caramelos.php, paletas.php, gomitas.php, chocolates.php)
+
+producto.php es el archivo principal de esta pestaña que mostrara una imagen por cada tipo de produto en la tienda; cada imagen servira como un enlace para mostrar una tabla con los productos correspondientes a cada tipo, cada imagen manda al archivo correspondiente como la imaben de chocolates usa chocolates.php y asi con las demas
+
+4.Administrador (Administrador.php, Validaadministrador.php, menuadmin.php)
 
 Esta parte es solo para trabajadores y pedira la contraseña 'pass', para mandarnos al menu del usuario y las funciones que podra realizar.
 
@@ -31,7 +35,7 @@ Como ejemplo la base ya contiene 6 productos de cada tipo.
          parte de la pagina para agregar productos por nombre, imagen del producto, y las opciones de que tipo es el dulce, si agrega correctamente o no nos mandara un mensaje.
          Entre los productos que se pueden agregar son gomitas, chocolates, caramelos, paletas, chicles y bombones.
 
-    NOTA: No pude guardar la imagen en la carpeta correspondiente, cuando seleccionas la imagen no la guarda en una carpeta de destino no supe como corregir ese problema o si era de la propia base.
+    NOTA: No pude guardar la imagen en la carpeta correspondiente, cuando seleccionas la imagen no la guarda en una carpeta de destino no supe como corregir ese problema o si era de la propia base. Por lo que no muestra la imagen pero los demas datos si los guarda.
   
     3.2 Ver Todo (verTodo.php)
 
@@ -51,23 +55,7 @@ En patrones de diseño usamos los mas simples que es para ahorrar codigoo en los
 
 
 
--------------------------------MAU -----------------------------
+------------------------------- NOTA -----------------------------
 
-Agrega la parte de Productos que es la que hara asi como le hice con los anteriores.
-
-para que puedas utilizar la base de datos haz exactamente lo que dijo la maestra en su correo
-
-guarda los archivos en var/www/html..
-
-abres una terminal y creas una base que se llame 'sucursal'
-
-abre otra terminal sin cerrar la de mysql y tecleas 'mysql -u usuario -p sucursal < /var/www/html/Proyecto-Final/base.sql'
-
-y ya con eso funciona, para que hagas lo de mostrar los productos como dijimos pues seria algo como los link,
-pones una imagen y cuando le aprietes yo digo que seria mas facil mandar a otro archivo que te lanze los productos y abajo un boton que diga regresar y te regrese a la pestaña 'producto'
-
-osea me imagino asi la estructura  
-
-pestaña productos solo muestra las imagenes de los tipos de dulces que se pueden agregar... le dasl click a una imagen
-
-y te manda a un archivo x.php que mostrara los dulces de ese tipo en especifico ponle para la imagen de chocolates que te mande a un archivo 'muestrachoco.php' y solo muestra en una tabla los productos de chocolate y abajo de la tabla el boton regresar que te manda a 'productos.php'
+Mi compañero Mauricio Garcia Ramos no fue de mucha ayuda como esperaba, aunque el realizo la pestaña de contacto. todo lo demas lo hice por mi cuenta, solo queria aclarar ese punto.
+Por lo que pido que se tome en cuenta esto al momento de la calificacion.

@@ -18,11 +18,11 @@
    <center>
    <table id='menu'>
    <tr>
-       <td id='lista1'><td><a href='index.php'>Inicio | </a></td>
-       <td id='lista2'>Productos | </td>
-       <td id='lista3'><td><a href='ubicacion.php'>Ubicacion | </a></td>
+       <td id='lista1'>Inicio | </td>
+       <td id='lista2'> <td> <a href='productos.php'> Productos | </a></td>
+       <td id='lista3'> <td> <a href='ubicacion.php'>Ubicacion | </a> </td>
        <td id='lista4'> <td> <a href= 'contacto.php'>Contacto | </a> </td>
-       <td id='lista5'><td> <a href='administrador.php'>Administrador | </a></td>
+       <td id='lista5'><td>  <a href='administrador.php'>Administrador | </a></td>
    </tr>   
    </table>
    </center>
